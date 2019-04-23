@@ -1,22 +1,21 @@
-                      _                 
-                     | |                
- _ __   __ _ _ __ ___| |__   __ _ _ __  
-| '_ \ / _` | '__/ __| '_ \ / _` | '_ \ 
-| |_) | (_| | | | (__| | | | (_| | | | |
-| .__/ \__,_|_|  \___|_| |_|\__,_|_| |_|
-| |                                     
-|_|  
+\########     ###    ########   ######  ##     ##    ###    ##    ## 
+\##     ##   ## ##   ##     ## ##    ## ##     ##   ## ##   ###   ## 
+\##     ##  ##   ##  ##     ## ##       ##     ##  ##   ##  ####  ## 
+\########  ##     ## ########  ##       ######### ##     ## ## ## ## 
+\##        ######### ##   ##   ##       ##     ## ######### ##  #### 
+\##        ##     ## ##    ##  ##    ## ##     ## ##     ## ##   ### 
+\##        ##     ## ##     ##  ######  ##     ## ##     ## ##    ## 
 
-parchan is Python-based script for making a thread dumps from https://2ch.hk imageboard
+**parchan** is Python-based script for making a thread dumps from [2ch.hk](https://2ch.hk) imageboard
 
-Requirements: 
-    Python 3 (https://www.python.org/)
-    Requests lib (https://pypi.org/project/requests/)
+**Requirements:**
+    [Python 3](https://www.python.org/)
+    [Requests lib](https://pypi.org/project/requests/)
 
-Syntax:
-    parchan <thread_url> [flags]
+**Syntax:**
+    parchan \<thread_url\> \[flags\]
     
-Flags: 
+**Flags:**
     --help                      - shows this message, exit script
     --no-files                  - saving thread without attachments 
     --path <path>               - saving thread to custom path, default is ../ 
